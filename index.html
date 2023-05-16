@@ -12,14 +12,14 @@
       overflow: hidden;
     }
 
-    .container {
+    div.container {
       position: relative;
       width: 100vw;
       height: 100vh;
       perspective: 1000px;
     }
 
-    .background {
+    div.background {
       position: absolute;
       top: 0;
       left: 0;
@@ -29,7 +29,7 @@
       transition: transform 0.3s;
     }
 
-    .logo {
+    div.logo {
       position: absolute;
       top: 50%;
       left: 50%;
@@ -41,7 +41,7 @@
       transition: transform 0.3s;
     }
 
-    .text-bubble {
+    div.text-bubble {
       position: absolute;
       top: 70%;
       left: 50%;
@@ -55,19 +55,19 @@
       transition: opacity 0.3s;
     }
 
-    .container:hover .background {
+    div.container:hover .background {
       transform: translate(-10%, -10%);
     }
 
-    .container:hover .logo {
+    div.container:hover .logo {
       transform: translate(-50%, -50%) rotate(30deg);
     }
 
-    .container:hover .text-bubble {
+    div.container:hover .text-bubble {
       opacity: 1;
     }
 
-    .footer {
+    div.footer {
       position: absolute;
       bottom: 10px;
       left: 50%;
@@ -75,7 +75,7 @@
       font-size: 1.2rem;
     }
 
-    .header {
+    div.header {
       position: fixed;
       top: 20px;
       left: 50%;
